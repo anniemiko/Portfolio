@@ -6866,17 +6866,18 @@ p {
 .resume-button {
   font-family: 'Questrial', sans-serif; }
 
-#resume {
+.resume {
   margin-bottom: 35px; }
 
 #about {
   font-family: 'Questrial', sans-serif; }
 
 .about-me {
-  font-size: 16px; }
+  font-size: 16px;
+  margin-top: 25px; }
 
 .profile-pic {
-  margin-top: 40px; }
+  margin-top: 30px; }
 
 #contact {
   padding-left: 55px; }
@@ -6890,6 +6891,10 @@ p {
 
 .contact-me .material-icons {
   font-size: 30px; }
+
+.about {
+  border-top: white solid 2px;
+  border-bottom: white solid 2px; }
 
 .parallax-container {
   min-height: 380px;
@@ -6928,5 +6933,4 @@ footer.page-footer {
 
 .page-footer {
   background-color: #6E91A2; }
-
 /*# sourceMappingURL=app.css.map */
