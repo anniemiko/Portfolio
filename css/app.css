@@ -6811,7 +6811,7 @@ nav ul a {
   border-bottom: #6E91A2 solid 1.5px;
   font-family: 'Questrial', sans-serif;
   padding: 20px 0px;
-  margin: 20px 30px; }
+  margin: 35px 30px; }
 
 .work-header h5 {
   font-size: 35px;
@@ -6899,17 +6899,17 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: 500px;
+  height: 300px;
   color: rgba(255, 255, 255, 0.9); }
 
 .parallax-container .section {
   width: 100%; }
 
 #index-banner {
-  height: 750px; }
+  height: 550px; }
 
 #index-banner .logo-header {
-  padding-top: 100px;
+  padding-top: 50px;
   height: 300px; }
 
 @media only screen and (max-width: 992px) {
