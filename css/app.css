@@ -2117,7 +2117,7 @@ video.responsive-video {
   bottom: 0;
   z-index: -1; }
   .parallax img {
-    display: none;
+    /*display: none;*/
     position: absolute;
     left: 50%;
     bottom: 0;
