@@ -24,15 +24,15 @@
       <div class="nav-wrapper container">
         <a id="logo-container" href="#index-banner" class="brand-logo"><img src="images/AB_Logo.png" alt="AB color logo"/></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#work">Design</a></li>
-          <li><a href="#resume">Experience</a></li>
+          <li><a href="#work">Work</a></li>
+          <!-- <li><a href="#resume">Experience</a></li> -->
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
-          <li><a href="#work">Design</a></li>
-          <li><a href="#resume">Experience</a></li>
+          <li><a href="#work">Work</a></li>
+          <!-- <li><a href="#resume">Experience</a></li> -->
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -41,8 +41,14 @@
     </nav>
   </div>
   <main>
-    <div id="index-banner" class="parallax-container">
-      <div class="section no-pad-bot">
+    <div id="index-banner">
+      <div class="background">
+        <picture>
+          <source srcset="images/MtRainer-m.png" media="(max-width: 640px)" />
+          <img src="images/BlueRidge-bg.jpg" alt="Blue Ridge Mtns">
+        </picture>
+      </div>
+      <div class="section">
         <div class="container">
           <br><br>
           <div class="row center">
@@ -56,12 +62,6 @@
 
         </div>
       </div>
-      <div class="parallax">
-        <picture>
-          <source srcset="images/MtRainer-m.png" media="(max-width: 640px)" />
-          <img src="images/MtRainer.jpg" alt="MtRanier">
-        </picture>
-      </div>
     </div>
 
 
@@ -69,127 +69,52 @@
       <div id="work" class="section">
 
         <!--   Work Section   -->
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="work-header">
-              <h5 class="center">My Work</h5>
-            </div>
-          </div>
 
-          <div class="col s12 m8">
-            <div class="work-description">
-              <p>As a developer with a passion for simple design and clean code, I strive to create designs that are both aesthetically pleasing and user-friendly. The examples below highlight a few development projects and graphic design work.</p>
-            </div>
-          </div>
-        </div>
         <div class="portfolio">
           <div class="row center">
-            <div class="col s12 l4">
+            <div class="col s12 l6">
               <div class="card">
                 <div class="card-image port-img waves-effect waves-block waves-light">
-                  <img class="activator" src="images/SaveRuralSC_screenshot.png" />
-                </div>
-                <div class="card-reveal">
-                  <i class="card-title material-icons right">close</i>
-                  <p class="card-title reveal-title">Campaign site</p>
-                  <p class="reveal-text">A site built for a non-profit campaign.</p>
-                  <p class="reveal-text">Developed using Wordpress Cyclone Theme with a mix of PHP, HTML and CSS.</p>
-                  <p class="center-align links"><a target="_blank" href="https://saveruralsc.org/">Open Site</a></p>
+                  <img class="activator" src="images/Leica_logo_with_bg.jpg" />
                 </div>
               </div>
             </div>
-            <div class="col s12 l4">
-              <div class="card">
-                <div class="card-image port-img waves-effect waves-block waves-light">
-                  <img class="activator" src="images/SS-site.png" />
-                </div>
-                <div class="card-reveal">
-                  <i class="card-title material-icons right">close</i>
-                  <p class="card-title reveal-title">Blog and Podcast</p>
-                  <p class="reveal-text">Site built for a non-profit project.</p>
-                  <p class="reveal-text">Developed using Wordpress Dara Theme with a mix of PHP, HTML and CSS.</p>
-                  <p class="center-align links"><a target="_blank" href="http://www.sexualsubject.com/">Open Site</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 l4">
-              <div class="card">
-                <div class="card-image port-img waves-effect waves-block waves-light">
-                  <img class="activator" src="images/9toShine-screenshot.png" />
-                </div>
-                <div class="card-reveal">
-                  <i class="card-title material-icons right">close</i>
-                  <p class="card-title reveal-title">Habit Formation App</p>
-                  <p class="reveal-text">A habit formation app developed as my final project at The Iron Yard.</p>
-                  <p class="reveal-text">Developed with React.js, Materializecss, using a backend Parse server, and OAuth API for Pocket</p>
-                  <p class="center-align links"><a target="_blank" href="https://anniemiko.github.io/Final-Project/">Open App</a> | <a target="_blank" href="https://github.com/anniemiko/Final-Project">View Code</a></p>
-                </div>
+            <div class="col s12 l6">
+              <div class="project-section">
+                  <h5 class="work-header">Leica Biosystems</h5>
+                  <p class="work-description">The nature of this work is confidential, however I can provide a description of my work here. As part of the LBS Digital Pathology team, I have worked on three projects related to digital pathology: two dashboards and one viewer. I collaborated with project management to develop requirements, and designed wireframes, high-fidelity mockups and click-through prototypes based on those requirements. I worked with developers and PMs to created user surveys, and designed and led user engagement sessions. These projects are currently in progress.</p>
               </div>
             </div>
           </div>
 
           <div class="row center">
-            <div class="col s12 l4">
+            <div class="col s12 l6">
               <div class="card">
                 <div class="card-image port-img waves-effect waves-block waves-light">
-                  <img class="activator" src="images/Metro-EDNY-Vote-poster.jpg" />
-                </div>
-
-                <div class="card-reveal">
-                  <i class="card-title material-icons right">close</i>
-                  <p class="card-title reveal-title">Earth Day New York Poster</p>
-                  <p class="reveal-text">Poster designed for display in local New York businesses as part of the MetroNY Best of Green Business campaign.</p>
-                  <p class="reveal-text">Designed using Adobe Illustrator and Photoshop.</p>
-                  <p class="center-align links"><a target="_blank" href="images/Metro-EDNY-Vote-posterV2.pdf">View Poster</a></p>
+                  <img class="activator" src="images/EIM_screenshot.jpg" />
                 </div>
               </div>
             </div>
-            <div class="col s12 l4">
-              <div class="card">
-                <div class="card-image port-img waves-effect waves-block waves-light">
-                  <img class="activator" src="images/DVMag_April2016_Final.jpg" />
-                </div>
-                <div class="card-reveal">
-                  <i class="card-title material-icons right">close</i>
-                  <p class="card-title reveal-title">Magazine Ad</p>
-                  <p class="reveal-text">Print ad created for ProAm Camera Cranes to run in the April Issue of Digital Video Magazine.</p>
-                  <p class="reveal-text">Designed using Adobe Illustrator and Photoshop.</p>
-                  <p class="center-align links"><a target="_blank" href="images/DVMag_April2016_Final.pdf">View Ad</a></p>
-                </div>
+            <div class="col s12 l6">
+              <div class="project-section">
+                  <h5 class="work-header">Locus Technologies</h5>
+                  <p class="work-description">The nature of this work is confidential, however I can provide a description of the work I've done. I started out working with, and eventually leading, a team in a facelift of the core product, "EIM" (software for environmental data management). The code was updated from ColdFusion to React. I designed wireframes and wrote code in order to create a fresher look and maintainable codebase.</p>
               </div>
             </div>
-            <div class="col s12 l4">
-              <div class="card">
-                <div class="card-image port-img waves-effect waves-block waves-light">
-                  <img class="activator" src="images/PA_MKE_program2016.jpg" />
-                </div>
-                <div class="card-reveal">
-                  <i class="card-title material-icons right">close</i>
-                  <p class="card-title reveal-title">Bi-fold Graduation Program</p>
-                  <p class="reveal-text">Cover of a program designed for the 2016 graduation of Milwaukee Public Allies.</p>
-                  <p class="reveal-text">Designed using Adobe Illustrator.</p>
-                  <p class="center-align links"><a target="_blank" href="images/PA_MKE_program2016.pdf">View Image</a></p>
-                </div>
-              </div>
-
           </div>
-        </div>
+
       </div>
     </div>
     </div>
 
-
-
-    <div class="parallax-container valign-wrapper">
-      <div id="resume" class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-            <h1 class="header col s8 push-s2 light">Experience</h1>
+      <div id="about" class="section about">
+        <!-- <div class="container"> -->
+          <div class="row">
+            <h1 class="header col s12 l4">About</h1>
+            <p class="col s12 l8">I have had the opportunity to work with many multi-departmental teams, spread across countries and time zones. I love collaborating with passionate people to make a vision become reality, and appreciate the Agile methodology to help us work quickly and efficiently. As a developer with a UI/UX focus, my goal is a product that is simple, intuitive and accessible. I love talking with users to get an understanding of their workflow and pain points. Incorporating this understanding, I'm able to design efficient and clean interfaces that provide a user the best possible expereience. I always strive for that perfect blend of aesthetics and functionality.</p>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
-      <div class="parallax"><img src="images/Brooklyn_Bridge.jpg" alt="Brooklyn Bridge Park"></div>
-    </div>
 
     <div class="container">
       <div class="section resume">
@@ -253,7 +178,7 @@
     </div>
 
 
-    <div class="parallax-container valign-wrapper">
+    <!-- <div class="parallax-container valign-wrapper">
       <div id="about" class="section no-pad-bot">
         <div class="container">
           <div class="row center">
@@ -262,19 +187,19 @@
         </div>
       </div>
       <div class="parallax"><img src="images/amsterdam_bike.jpg" alt="bike on bridge in Amsterdam"></div>
-    </div>
+    </div> -->
   </main>
 
   <footer class="page-footer">
     <div class="container">
       <!--   About Section   -->
-      <div class="row about">
+      <div class="row">
         <div class="col l3 s12">
           <img class="profile-pic" src="images/Headshot_AB_BW.png"/>
         </div>
         <div class="col l5 s12">
           <!-- <h3 class="white-text">About Me</h3> -->
-          <p class="grey-text text-lighten-4 about-me">I'm a curious optimist who loves people, animals, and the great outdoors. Making the world a more sustainable place for all is what drives me. I'm fascinated by how people change behaviors, and dedicated to helping them make sustainable changes. What drew me to coding was the necessity for lifelong learning and the opportunity to work with teams on big projects. I love collaborating with passionate people to make a vision become reality.</p>
+          <p class="grey-text text-lighten-4 about-me">I'm a curious optimist who loves people, animals, and the great outdoors. I'm passionate about sustainability and strive to make the word a better place. Currently located in western North Carolina, I love living in the mountains. When I'm not in front of my computer with a cat on my lap, you'll find me hiking on one of the many trails nearby.</p>
 
 
         </div>
@@ -284,14 +209,13 @@
           <ul class="contact-me">
             <li><a class="white-text" href="mailto:andrea.f.baty@gmail.com"><i class="material-icons left white-text">email</i>andrea.f.baty@gmail.com</a></li>
             <li><a class="white-text" target="_blank" href="https://www.linkedin.com/in/andreabaty/"><img src="images/In-White-28px-R.png" class="left"/> LinkedIn</a></li>
-            <!-- <li><a class="white-text" target="_blank" href="https://github.com/anniemiko/"><img src="images/GitHub-Mark-Light-32px.png" class="left"/>Github</a></li> -->
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      <span className="brown-text text-lighten-3 col s9">&copy; 2017 Andrea Baty. Made with Materialize. All photography &copy; Andrea Baty. </span>
+      <span className="brown-text text-lighten-3 col s9">&copy; 2023 Andrea Baty. All photography &copy; Andrea Baty. </span>
       </div>
     </div>
   </footer>
