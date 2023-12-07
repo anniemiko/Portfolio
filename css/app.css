@@ -3118,6 +3118,10 @@ nav ul a span.badge {
       .row .col.push-xl12 {
         left: 100%; } }
 
+@media only screen and (min-width: 601px) {
+  .row {
+    margin-bottom: 0; } }
+
 nav {
   color: #fff;
   background-color: #ee6e73;
@@ -6890,6 +6894,18 @@ p {
   font-size: 16px;
   padding: 0.5rem 3rem 0.5rem 5rem;
   border-left: solid 0.25rem white;
+}
+
+@media only screen and (min-width: 601px) {
+  .about .row p{
+    border: 0;
+    text-align: center;
+    padding: 0 3rem 1rem;
+  }
+  .about .row h1 {
+    padding-top: 1rem;
+  }
+
 }
 
 .about-me {
