@@ -3118,7 +3118,7 @@ nav ul a span.badge {
       .row .col.push-xl12 {
         left: 100%; } }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 350px) {
   .row {
     margin-bottom: 0; } }
 
@@ -5350,7 +5350,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .side-nav {
   position: fixed;
-  width: 300px;
+  width: 10rem;
   left: 0;
   top: 0;
   margin: 0;
@@ -6808,6 +6808,12 @@ nav ul a {
   height: 45px;
   margin-top: 10px; }
 
+ @media only screen and (min-width: 350px) {
+  .logo-header {
+    display: none;
+  }
+ }
+
 .header {
   font-family: 'Questrial', sans-serif;
   color: white;
@@ -6823,6 +6829,13 @@ nav ul a {
   font-size: 17px;
   text-align:left;
   margin-left: 3rem;
+ }
+
+ @media only screen and (min-width: 350px) {
+   .work-description {
+     text-align:center;
+     margin: 0 0 3rem;
+    }
  }
 
 .portfolio {
@@ -6862,6 +6875,10 @@ p {
 
 .material-icons {
   color: #6E91A2; }
+@media only screen and (min-width: 350px) {
+  .material-icons {
+    color: white; }
+}
 
 .button-collapse {
   color: #26a69a; }
@@ -6896,7 +6913,7 @@ p {
   border-left: solid 0.25rem white;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 350px) {
   .about .row p{
     border: 0;
     text-align: center;
@@ -6958,7 +6975,7 @@ p {
 
   #index-banner .section {
     top: 10%; } }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 350px) {
   #index-banner .section {
     top: 0; } }
 .icon-block {
