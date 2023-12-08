@@ -6808,11 +6808,11 @@ nav ul a {
   height: 45px;
   margin-top: 10px; }
 
- @media only screen and (min-width: 350px) {
+ /*@media only screen and (min-width: 350px) {
   .logo-header {
     display: none;
   }
- }
+ }*/
 
 .header {
   font-family: 'Questrial', sans-serif;
@@ -6875,10 +6875,10 @@ p {
 
 .material-icons {
   color: #6E91A2; }
-@media only screen and (min-width: 350px) {
+/*@media only screen and (min-width: 350px) {
   .material-icons {
     color: white; }
-}
+}*/
 
 .button-collapse {
   color: #26a69a; }
@@ -6913,7 +6913,7 @@ p {
   border-left: solid 0.25rem white;
 }
 
-@media only screen and (min-width: 350px) {
+@media only screen and (max-width: 450px) {
   .about .row p{
     border: 0;
     text-align: center;
@@ -6922,7 +6922,9 @@ p {
   .about .row h1 {
     padding-top: 1rem;
   }
-
+  .about .row{
+    width: 90%;
+  }
 }
 
 .about-me {
@@ -6968,6 +6970,14 @@ p {
   padding-top: 50px;
   height: 300px; }
 
+@media only screen and (max-width: 450px) {
+  #index-banner .logo-header {
+    padding-top: 0px;
+    height: 10rem; }
+  #index-banner {
+    height: 30rem; }
+}
+
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
@@ -6975,7 +6985,7 @@ p {
 
   #index-banner .section {
     top: 10%; } }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
   #index-banner .section {
     top: 0; } }
 .icon-block {
